@@ -17,7 +17,7 @@ function showSlides(index) {
         currentIndex = index; // Otherwise, set to the provided index
     }
     slider.style.transform = `translateX(-${currentIndex * 100}%)`; // Slide transition
-//  updateDots(); // Update the dots to reflect the current slide
+    updateDots(); // Update the dots to reflect the current slide
 }
 
 // Function to move to the next slide

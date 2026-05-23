@@ -28,6 +28,7 @@ td
 	text-align: center;
 	vertical-align: top;
 }
+
 /* Container for the entire slider section including the title and slider itself */
 .background {
 /*    width: 100%; /* Sets the width to fill the available space */
@@ -58,7 +59,7 @@ td
 /* Each individual slide - takes up full width of the container */
 .slide {
     min-width: 100%; /* Each slide takes up 100% of the slider container's width */
-    height: 515px; /* Fixed height for each slide */
+    height: 420px; /* Fixed height for each slide */
     transition: transform 0.5s ease-in-out; /* Smooth transition when slides are changed */
 }
 
@@ -104,6 +105,7 @@ td
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8); /* Darkens the button background on hover */
 }
+
 
 // Menú
 
